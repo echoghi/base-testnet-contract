@@ -35,11 +35,11 @@ const config: HardhatUserConfig = {
         urls: {
           // Pick a block explorer and uncomment those lines
           // Blockscout
-          apiURL: 'https://base-goerli.blockscout.com/api',
-          browserURL: 'https://base-goerli.blockscout.com'
+          //apiURL: 'https://base-goerli.blockscout.com/api',
+          //browserURL: 'https://base-goerli.blockscout.com'
           // Basescan by Etherscan
-          // apiURL: 'https://api-goerli.basescan.org/api',
-          // browserURL: 'https://goerli.basescan.org'
+          apiURL: 'https://api-goerli.basescan.org/api',
+          browserURL: 'https://goerli.basescan.org'
         }
       }
     ]
